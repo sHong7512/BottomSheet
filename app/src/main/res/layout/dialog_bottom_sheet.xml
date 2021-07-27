@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_peekHeight = "200dp"
+    app:behavior_fitToContents = "false"
+    app:behavior_expandedOffset = "100dp"
+    app:behavior_hideable="true"
+    >
+
+    <TextView
+        android:id="@+id/dialogText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text One"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/dialogText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Two"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/dialogText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Three"
+        android:padding="20dp"/>
+
+</LinearLayout>
