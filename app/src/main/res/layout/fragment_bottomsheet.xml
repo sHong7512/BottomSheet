@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/bottom_sheet_layout"
-    android:orientation="vertical"
+    android:id="@+id/BottomSheetFragmentLayout"
     android:layout_width="match_parent"
-    android:layout_height="500dp"
-    app:layout_behavior="@string/bottom_sheet_behavior"
-    app:behavior_peekHeight = "200dp"
-    app:behavior_fitToContents = "false"
-    app:behavior_expandedOffset = "100dp"
-    app:behavior_hideable="true"
-    android:background="#D4E7FF"
-    >
+    android:layout_height="match_parent"
+    android:background="@drawable/bottomsheet_back"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/bottomSheetBarLayout"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="40dp">
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="4dp"
+            android:background="@drawable/bottomsheet_bar"/>
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/dialogText1"

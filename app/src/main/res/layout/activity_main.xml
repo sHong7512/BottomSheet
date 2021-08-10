@@ -28,8 +28,6 @@
         android:layout_marginTop="100dp" />
 
     <include
-        layout="@layout/dialog_bottom_sheet"
-
-        />
+        layout="@layout/dialog_bottom_sheet" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
